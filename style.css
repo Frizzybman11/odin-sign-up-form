@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    background-color: rgba(241, 241, 241, 0.555);
 }
 
 #content {
@@ -12,11 +13,21 @@ body {
     flex-direction: column;
 }
 
+#form {
+    background-color: white;
+}
+
 #logo {
     display: flex;
+    justify-content: center;
     color: white;
-    font-size: 24pt;
+    font-size: 72px;
     font-family: "Norse-Bold", Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, .35);
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
 }
 
 #main {
@@ -24,18 +35,34 @@ body {
     height: 100vh;
 }
 
-#odin_logo {
-    width: 100px;
+#odin-logo {
+    width: 75px;
     height: auto;
+}
+
+#odin-text {
+    padding-top: 15px;
 }
 
 #splash {
     display: flex;
     flex-direction: column;
-    flex-basis: 33%;
     background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
-    min-width: 300px;
+    
 }
+
+#splash-credit {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 1%;
+    text-align: center;
+    align-self: center;
+}
+
+ #splash-credit a {
+    color: white;
+ }
