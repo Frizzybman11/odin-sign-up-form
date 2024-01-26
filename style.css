@@ -47,7 +47,7 @@ legend {
     margin-bottom: 10px;
 }
 
-input {
+.form-input {
     font-size: 16px;
     line-height: 1.5em;
     padding: 3px;
@@ -68,6 +68,20 @@ input {
     margin-top: -100px;
     max-width: 725px;
 
+}
+
+#login {
+    padding-left: 40px;
+}
+
+#login p{
+    font-size: 18px;
+}
+
+#login a{
+    color:rgb(64, 100, 16);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 #logo {
@@ -103,10 +117,10 @@ input {
     flex-direction: column;
     background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: fixed;
     background-size: cover;
     height: 100%;
-    min-width: 30vw;
+    min-width: 550px;
     
 }
 
@@ -121,4 +135,15 @@ input {
 
  #splash-credit a {
     color: white;
+ }
+
+ #submit-button {
+    background-color:rgb(64, 100, 16);
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 5px;
+    color: white;
+    padding: 15px 50px 15px 50px;
+    border-radius: 15px;
+    margin-bottom: 10px;
  }
