@@ -46,12 +46,6 @@ fieldset {
     padding-right: 50px;
 }
 
-legend {
-    font-size: 30px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-}
-
 .form-input {
     font-size: 16px;
     line-height: 1.5em;
@@ -79,6 +73,12 @@ legend {
     margin-top: -100px;
     max-width: 725px;
 
+}
+
+legend {
+    font-size: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 #login {
@@ -123,6 +123,20 @@ legend {
     padding-top: 10px;
 }
 
+#password_error {
+    visibility: hidden;
+    margin-top: 3px;
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.password_invalid {
+    outline-style: none;
+    border-color: red;
+}
+
 #splash {
     display: flex;
     flex-direction: column;
@@ -144,11 +158,11 @@ legend {
     align-self: center;
 }
 
- #splash-credit a {
+#splash-credit a {
     color: white;
  }
 
- #submit-button {
+#submit-button {
     background-color:rgb(64, 100, 16);
     font-size: 16px;
     font-weight: bold;
@@ -157,4 +171,8 @@ legend {
     padding: 15px 50px 15px 50px;
     border-radius: 15px;
     margin-bottom: 10px;
+ }
+
+ #submit-button:hover {
+    background-color:rgb(80, 126, 20);
  }
