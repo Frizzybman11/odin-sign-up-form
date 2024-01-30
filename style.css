@@ -15,6 +15,11 @@ body {
     width: 100%;
 }
 
+#email:invalid:not(:placeholder-shown), #phone_number:invalid:not(:placeholder-shown) {
+    outline-style: none;
+    border-color: red;
+}
+
 fieldset {
     display: flex;
     border-style: none;
@@ -55,6 +60,12 @@ legend {
     border-radius: 5px;
     border-color: rgba(0, 0, 0, .20);
     margin-top: 5px;
+}
+
+.form-input:focus {
+    outline-style: none; 
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, .30);
+    border-color: blue;
 }
 
 #intro {
